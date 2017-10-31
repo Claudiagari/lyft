@@ -1,3 +1,70 @@
 /*
  * Estilos de tu proyecto
  */
+ * {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+
+ *:before, *:after {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+
+ body {
+   margin: 0 auto;
+   font-size: 16px;
+   line-height: 1.71429;
+   font-family: 'Montserrat', sans-serif;
+ }
+
+ /*Header*/
+
+ header {
+   top: 0;
+   width: 100%;
+   outline: 1px solid blue;
+   position: fixed;
+   background: #fff;
+ }
+
+
+ img.logo-lyft {
+   margin-left: 50px;
+   margin-top: 22px;
+   width: 80px;
+   height: auto;
+ }
+
+ figure {
+   display: inline-block;
+ }
+
+
+ ul {
+   float: right;
+   margin-top: 30px;
+   margin-right: 100px;
+   display: inline-block;
+   list-style: none;
+ }
+
+ li {
+   margin-left: 55px;
+   display: inline-block;
+ }
+
+ a {
+   text-decoration: none;
+ }
+
+li:last-child {
+  border-radius: 8px;
+  border: 1px solid #eee;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
