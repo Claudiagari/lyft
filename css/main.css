@@ -135,3 +135,6 @@ button {
 .turn-miles a {
   color: rgb(185,192,205);
 }
+.capital-letter {
+  text-transform: uppercase;
+}
