@@ -104,6 +104,10 @@ h2 {
  color: rgb(53,35,132);
  line-height: 32px;
 }
+
+.turn-miles h4 {
+  color: rgb(185,192,205);
+}
 input {
   border-top: none;
   border-right: none;
@@ -125,7 +129,9 @@ button {
   font-size: 10px;
 }
 
-
-.turn-miles a {
+.turn-miles a:first-child {
   color: rgb(255,0,191);
+}
+.turn-miles a {
+  color: rgb(185,192,205);
 }
