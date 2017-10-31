@@ -2,6 +2,7 @@
  * Estilos de tu proyecto
  */
  * {
+   margin: 0;
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
    box-sizing: border-box;
@@ -27,7 +28,8 @@
    width: 100%;
    outline: 1px solid blue;
    position: fixed;
-   background: #fff;
+   background: linear-gradient(#76278F, #2B1E66);
+   color: #fff;
  }
 
 
@@ -44,9 +46,11 @@
 
 
  ul {
+   color:#fff;
    float: right;
    margin-top: 30px;
    margin-right: 100px;
+   margin-bottom: 30px;
    display: inline-block;
    list-style: none;
  }
@@ -67,4 +71,14 @@ li:last-child {
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+/*Primera seccion*/
+
+section.sign-up {
+  margin-top: 110px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image:url("../assets/images/hero.gif");
 }
