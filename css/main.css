@@ -17,7 +17,7 @@
  body {
    margin: 0 auto;
    font-size: 16px;
-   line-height: 1.71429;
+   line-height: 3;
    font-family: 'Montserrat', sans-serif;
  }
 
@@ -97,9 +97,13 @@ section.sign-up {
   margin-left: 699px;
   margin-right: 0px;
   padding: 60px;
+  font-size: 18px;
 }
 
-
+h2 {
+ color: rgb(53,35,132);
+ line-height: 32px;
+}
 input {
   border-top: none;
   border-right: none;
@@ -115,4 +119,13 @@ button {
   border-style: none;
   background: rgb(255,0,191);
   color: #fff;
+}
+
+.turn-miles p {
+  font-size: 10px;
+}
+
+
+.turn-miles a {
+  color: rgb(255,0,191);
 }
